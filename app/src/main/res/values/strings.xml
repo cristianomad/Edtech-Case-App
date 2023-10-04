@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">uLesson Test</string>
+    <string name="exo_download_notification_channel_name">Downloads</string>
+
+    <string name="add_bookmark_title">Add bookmark</string>
+    <string name="continue_watching_title">Continue watching</string>
+    <string name="milestone_message">Congratulations! You completed a lesson today.</string>
+    <plurals name="chapter_lessons">
+        <item quantity="one">%d lesson</item>
+        <item quantity="other">%d lessons</item>
+    </plurals>
+
+</resources>
