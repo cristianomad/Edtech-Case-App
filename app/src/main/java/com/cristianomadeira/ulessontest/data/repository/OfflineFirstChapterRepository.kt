@@ -31,7 +31,14 @@ class OfflineFirstChapterRepository @Inject constructor(
         val remoteChapters = fetchChapters()
 
         localChapters.combine(remoteChapters) { local, remote ->
-            local.getOrNull()?.let { Result.success(it) } ?: remote
+            local.fold(
+                onSuccess = {
+                    local
+                },
+                onFailure = {
+                    remote
+                }
+            )
         }
     }
 
