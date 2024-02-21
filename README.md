@@ -14,6 +14,8 @@ The key features of the app includes:
 
 5. **User-Friendly Design**: The app will be designed with a focus on user-friendliness, ensuring that even those with limited technical expertise can navigate it easily.
 
+[Click here to see the complete technical documentation](https://cristiano-madeira.notion.site/EdTech-Application-Prototype-c50ebe115ee54172b3a62aa8ff3639fa?pvs=74)
+
 | | |
 | --- | --- |
 | ![chapters](https://ik.imagekit.io/lhpsfdvnd/Screenshot_2023-10-04-00-13-16-18_e9003ef0eea51102663529086d1a8477.jpg?updatedAt=1696379387543) | ![lesson](https://ik.imagekit.io/lhpsfdvnd/Screenshot_2023-10-04-00-13-57-18_e9003ef0eea51102663529086d1a8477.jpg?updatedAt=1696379293583) |
@@ -47,5 +49,3 @@ To execute the instrumented tests report run:
 I recommend using the emulator.
 
 The report will be generated in `app/build/reports/androidTests/connected/debug/index.html`
-
-
