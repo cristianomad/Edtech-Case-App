@@ -1,4 +1,4 @@
-# ULessonTest Android Application
+# EdTechTest Android Application
 
 This is an Android app prototype using the Kotlin programming language that caters to the needs of learners seeking to access video lessons online.
 
